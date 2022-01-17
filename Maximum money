@@ -1,0 +1,10 @@
+class Solution {
+    static int maximizeMoney(int n , int K) {
+        if(n%2==0){
+            return K*(n/2);
+        }
+        else{
+            return K*((n/2)+1);
+        }
+    }
+};
